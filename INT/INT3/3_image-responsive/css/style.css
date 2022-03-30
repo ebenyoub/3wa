@@ -1,0 +1,19 @@
+.images {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 100%;
+}
+
+article {
+    width: 50%;
+    background-color: #eee;
+}
+
+
+body {
+    background-image: url("../instructions/ressources/phare.jpg");
+    background-size: cover;
+}

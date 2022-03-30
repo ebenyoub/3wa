@@ -1,0 +1,81 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: #555;
+    margin: 0;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #444;
+    color: #eee;
+    padding: 1rem 0;
+}
+
+h1, a {
+    color : #DD5735;
+    text-decoration: none;
+}
+h
+main {
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 40em;
+    min-height: 20em;
+} 
+
+pre {
+    background-color: #ccc;
+    color: #333;
+    padding: 1rem;
+    border: 1px solid #bbb;
+}
+
+.img_glob {
+    height: 26rem;
+    padding: 2em;
+    color: #fff;
+    margin-bottom: 4rem;
+    background-color: teal;
+}
+
+.small {
+    background-image: url("../ressources/small.jpg");
+}
+
+.large {
+    background-image: url("../ressources/large.jpg");
+}
+
+.repeat {
+    background-repeat: repeat;
+}
+
+.no-repeat {
+    background-repeat: no-repeat;
+}
+.repeat-x {
+    background-repeat: repeat-x;
+}
+    
+.repeat-y {
+    background-repeat: repeat-y;
+}
+    
+bg-size-contain {
+    background-size: contain;
+}
+    
+.bg-size-cover {
+    background-size: cover;
+}
+    
+.bg-size-x {
+    background-size: 50%;
+}
+

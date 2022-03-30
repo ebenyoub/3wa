@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modèle de boîte</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+    <header>
+        <h1>Ajouter une image de fond</h1>
+        <p>Comprendre comment afficher et bien positionner une image de fond</p>
+    </header>
+    <main>
+        <h2>Image versus background</h2>
+        <p>L'image (ici le logo de la 3WA) est un élément <img>, c'est un contenu et sera référencée par les moteurs de recherche. L'image de fond (les olives) est une décoration déclarée en dans la feuille de style et NE sera PAS référencée par les moteurs de recherche.</p>
+        <div class="image_fond img_glob large">
+            <img src="ressources/logo-3wa.png" alt="logo 3wa"></img>
+        </div>
+        
+        <h2>Répétition de l'image.</h2>
+        
+        <pre>background-repeat: repeat;</pre>
+        <div class="repeat img_glob small">
+            <p>Du texte...</p>
+        </div>
+        
+        <pre>background-repeat: no-repeat;</pre>
+        <div class="no-repeat img_glob small">
+            <p>Du texte...</p>
+        </div>
+        
+        <pre>background-repeat: repeat-x;</pre>
+        <div class="repeat-x img_glob small">
+            <p>Du texte...</p>
+        </div>        
+        <pre>background-repeat: repeat-y;</pre>
+        <div class="repeat-y img_glob small">
+            <p>Du texte...</p>
+        </div>
+        
+        <h2>Ajustement de la taille de l'image du fond par rapport à son élément.</h2>
+        
+        <pre>background-size: contain;</pre>
+        <div class="bg-size-contain img_glob large">
+            <p>Du texte...</p>
+        </div>  
+        
+        <pre>background-size: cover;</pre>
+        <div class="bg-size-cover img_glob large">
+            <p>Du texte...</p>
+        </div>    
+        
+        <pre>background-size: 50%;</pre>
+        <div class="bg-size-x img_glob large">
+            <p>Du texte...</p>
+        </div>        
+        
+        <pre>background-size: 80% 40%;</pre>
+        <div class="bg-size-xy img_glob small">
+            <p>Du texte...</p>
+        </div>
+        
+        <h2>Positionnement de l'image.</h2>
+        
+        <pre>background-repeat: no-repeat;</pre>
+        <div class="no-repeat img_glob">
+            <p>Du texte...</p>
+        </div>        
+        <pre>background-repeat: no-repeat;</pre>
+        <div class="no-repeat img_glob">
+            <p>Du texte...</p>
+        </div>        
+        <pre>background-repeat: no-repeat;</pre>
+        <div class="no-repeat img_glob">
+            <p>Du texte...</p>
+        </div>        
+        <pre>background-repeat: no-repeat;</pre>
+        <div class="no-repeat img_glob">
+            <p>Du texte...</p>
+        </div>        
+        <pre>background-repeat: no-repeat;</pre>
+        <div class="no-repeat img_glob">
+            <p>Du texte...</p>
+        </div>
+    </main>
+    <footer>
+        <img src="ressources/logo-3wa.png"></img>
+        <p>Propriété de la <a href="https://3wa.fr">3W Academy</a>. Ce matériel pédagogique est la propriété de la 3W Academy. Cet exercice a été réalisé par Stephane Pereck.</p>
+    </footer>
+</body>
+</html>

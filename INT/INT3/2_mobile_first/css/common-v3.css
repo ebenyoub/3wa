@@ -1,0 +1,47 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    color: #555;
+    margin: 0;
+    background-color: #FFF;
+}
+
+body * {
+    box-sizing: border-box;
+    
+}
+
+main {
+    width: 90%;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+article {
+    padding: 2rem;
+}
+
+.page header, .page footer {
+    background-color: #ccc;
+    color: #444;
+    text-align: left;
+    padding: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #444;
+    color: #eee;
+    padding: 1rem 0;
+}
+
+h1, a {
+    color : #DD5735;
+    text-decoration: none;
+}

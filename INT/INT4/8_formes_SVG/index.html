@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Medias">
+	<title>SVG</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="header">
+    	<h1>Exemples de formes SVG</h1>
+	</header>
+		
+	<main>
+		<article class="ligne container">
+			<h2>Lignes (line)</h2>
+			<div class="svg">
+				<svg width="400" height="300" style="background: lightgrey">
+					<line x1="50" y1="50" x2="200" y2="250" stroke="red"></line>
+					<line x1="300" y1="50" x2="300" y2="250" stroke="navy" stroke-width="5" stroke-linecap="round"></line>
+				</svg>
+			</div> 
+		</article>
+		
+		<article class="circle container">
+			<h2>Ronds (circle)</h2>
+			<div class="svg">
+				<svg width="400" height="300" style="background: lightgrey">
+					<circle cx="200" cy="150" r="80" fill="lightblue" stroke="navy" stroke-width="3"></circle>
+				</svg>
+			</div> 
+		</article>
+		
+		<article class="circle container">
+			<h2>Rectangle (Rect)</h2>
+			<div class="svg">
+				<svg width="400" height="300" style="background: lightgrey">
+					<rect x="100" y="100" width="200" height="100" fill="crimson" stroke="brown" stroke-width="3" rx="15" ry="15"></rect>
+				</svg>
+			</div> 
+		</article>
+		<article class="path container">
+			<h2>Formes composees (Path)</h2>
+			<div class="svg">
+				<svg width="400" height="300" style="background: lightgrey">
+					<path d="M 200 50 L 50 200 L 350 200" fill="rosybrown"></path>
+				</svg>
+			</div> 
+			<div class="svg">
+				<svg width="400" height="300" style="background: lightgrey">
+					<path	d="M 50 250 L 150 50
+							   M 150 50 L 200 100
+							   M 200 100 L 250 50" 
+							stroke="royalblue" 
+							stroke-width="3">
+					</path>
+				</svg>
+			</div> 
+		</article>
+	</main>
+		
+	<footer class="footer">
+		<p><a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/"><img alt="Propriété de la 3W Academy" src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/big.png"></a></p>
+		<p>Ce matériel pédagogique est la propriété de la <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/">3W Academy</a>. Cet exercice a été réalisé par <a href="https://www.cath2nos.com">Catherine Denos</a>.</p>
+	</footer>
+</body>
+</html>

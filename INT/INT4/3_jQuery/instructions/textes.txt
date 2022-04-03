@@ -1,0 +1,8 @@
+Plugin jQuery Bx Slider
+Caroussel d'images avec le plugin jQuery Bx Slider
+
+Bx Slider Caroussel
+
+Propriété de la 3W Academy
+
+Ce matériel pédagogique est la propriété de la 3W Academy. Cet exercice a été réalisé par Catherine Denos.

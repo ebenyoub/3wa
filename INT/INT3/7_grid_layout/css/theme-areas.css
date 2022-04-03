@@ -1,0 +1,39 @@
+.grid {
+    display: grid;
+    grid-template-columns: 18% auto 18%;
+    grid-template-areas: "header header header"
+                         "nav main aside"
+                         "nav main aside"
+                         "footer footer footer";
+    gap: 1rem;
+}
+
+.grid > * {
+    padding: 1rem;
+}
+
+.grid > header {
+    background-color: #ddd;
+    grid-area: header;
+}
+
+nav {
+    background-color: #fc3;
+    grid-area: nav;
+}
+
+main {
+    background-color: #fff;
+    grid-area: main;
+}
+
+aside {
+    background-color: #fa3;
+    grid-area: aside;
+}
+
+.grid footer {
+    background-color: #bbb;
+    grid-area: footer;
+    
+}

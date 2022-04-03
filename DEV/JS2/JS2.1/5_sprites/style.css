@@ -1,0 +1,61 @@
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-right: 6px;
+  background: url("sprites_image.png") no-repeat;
+}
+
+li.facebook a {
+  background-position: 0 top;
+}
+
+li.facebook a:hover {
+  background-position: 0 bottom;
+}
+
+li.rss a {
+  background-position: -56px top;
+}
+
+li.rss a:hover {
+  background-position: -56px bottom;
+}
+
+li.linkedin a {
+  background-position: -112px top;
+}
+
+li.linkedin a:hover {
+  background-position: -112px bottom;
+}
+
+li.pinterest a {
+  background-position: -171px top;
+}
+
+li.pinterest a:hover {
+  background-position: -171px bottom;
+}
+
+li.share a {
+}
+
+li.share a:hover {
+}
+
+li.youtube a {
+}
+
+li.youtube a:hover {
+}
+
+li.twitter a {
+}
+
+li.twitter a:hover {
+}

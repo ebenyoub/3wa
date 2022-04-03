@@ -1,0 +1,31 @@
+.para {
+    width: 500px;
+    height: 120px;
+    background-color: #DD5735;
+    padding: 3rem;
+    margin: 1rem auto 9rem;
+    text-align: justify;
+}
+
+.visible {
+    overflow: visible;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.auto {
+    overflow: auto;
+}
+
+.text240 {
+    width: 240px;
+    background-color: #DD5735;
+    text-overflow: ellipsis;
+    
+}

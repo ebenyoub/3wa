@@ -1,0 +1,27 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: #555;
+    margin: 0;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #444;
+    color: #eee;
+    padding: 1rem 0;
+}
+
+footer img {
+    width: 8rem;
+}
+
+h1, a {
+    color : #DD5735;
+    text-decoration: none;
+}

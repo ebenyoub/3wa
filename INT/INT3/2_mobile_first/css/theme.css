@@ -1,0 +1,16 @@
+@media screen and (min-width: 780px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  article {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  article {
+    width: 25%;
+  }
+}

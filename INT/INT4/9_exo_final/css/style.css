@@ -1,0 +1,374 @@
+/***************************************
+GLOBAL ********************************/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Athiti', sans-serif;
+    box-sizing: border-box;
+    color: #333;
+    margin: 0;
+    background-color: #fff;
+    min-width: 360px;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 780px;
+    margin: 0  auto;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    font-weight: 500;
+}
+
+.enterprise h1 {
+    font-family: 'Athiti', sans-serif;
+}
+
+.header {
+    background-image: linear-gradient(#d7c7b7 1%, white 30%);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.enterprise {
+    display: flex;
+    flex-direction: column;
+}
+
+.enterprise img {
+    width: 15rem;
+    margin: 2rem auto;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.icon {
+    font-size: 2.5rem;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+}
+
+.icon::before, .icon::after {
+    content: "  \f005  ";
+    color: #950000;
+    font-size: 1.1rem;
+    vertical-align: top;
+    margin: 1rem;
+    font-family: "FontAwesome";
+}
+
+.start-title {
+    text-align: start;
+}
+
+.nav {
+    background-color: #ebe3db;
+}
+
+.nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.nav li:first-child > a {
+    background-color: #4c4343;
+    color:#f1f1f1;
+    transition: all 1s;
+}
+
+.nav li:first-child > a:hover {
+    background-color: #950000;
+    color: #f1f1f1;
+}
+
+.nav a {
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 1.5rem;
+    border-bottom: 1px solid #4c4343;
+    color: #4c4343;
+    transition: all 0.5s;
+}
+
+.nav a:hover {
+    background-color: #950000;
+    color: #f1f1f1;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.pad {
+    padding: 2rem;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.card {
+    background-color: #ebe3db;
+    padding: 0.5rem 0;
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+.card ul {
+    padding-left: 0;
+}
+
+.card li {
+    display: block;
+    border-bottom: 1px dashed #4c4343;
+    padding: 1rem 3rem;
+}
+
+.card li::before {
+    content: "  \f005  ";
+    color: #950000;
+    font-size: 1rem;
+    vertical-align: middle;
+    margin: 1rem;
+    font-family: "FontAwesome";
+}
+
+.card h3 {
+    font-size: 2rem;
+}
+
+.welcome {
+    text-align: justify;
+}
+
+.more {
+    display: block;
+    text-align:center;
+    text-decoration: none;
+    color: #ebe3db;
+    background-color: #4c4343;
+    padding: 0.5rem 0 1rem 0;
+    margin: 2rem;
+}
+
+.more p {
+    margin: 0;
+
+}
+
+.more p::before {
+    content: url(../images/fork-knife.svg);
+    display: inline-block;
+    margin-right: 1rem;
+    width: 25px;
+    transform: translate(0, 5px);
+}
+
+.info {
+    text-align:center;
+    background-image: url(../images/footer-bg.jpg);
+    color: #ebe3db;
+    padding: 2rem 0;
+}
+
+.info ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.picto ul {
+    display: flex;
+    justify-content: center;
+}
+
+.picto a, .contact a {
+    text-decoration: none;
+    color: #ebe3db;
+}
+
+.picto i {
+    color: #ebe3db;
+    font-size: 2.5rem;
+    margin: 0 2rem;
+}
+
+.picto {
+    margin: 0;
+}
+
+.info h2 {
+    font-size: 1.8rem;
+    border-bottom: 1px dashed #ebe3db;
+    padding-bottom: 2rem;
+    margin: 2rem auto;
+    font-family: 'Merienda';
+}
+
+.price {
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    display: inline-block;
+}
+
+.price img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    font-size: 5rem;
+    line-height: 7rem;
+    opacity:0;
+    position: absolute;
+    top:0;
+    left: 0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption div {
+    border: 0.1rem solid white;
+    height: 80%;
+    margin: 4rem;
+
+}
+
+figcaption:hover {
+    opacity: 1;
+}
+
+footer img {
+    width: 6rem;
+    margin: 1rem auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #444;
+    color: #eee;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+
+footer a {
+    color : #ebe3db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color : #950000;
+}
+
+/***************************************
+VERSION TABLETTE **********************/
+
+@media screen and (min-width: 780px) {
+    .nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav li {
+        width: 15%;
+    }
+
+    .nav a {
+        border-bottom: none;
+    }
+
+    .info {
+        display: flex;
+    }
+
+    .info div {
+        width: 33%;
+        padding: 3rem;
+    }
+
+    .container {
+        max-width: 98rem;
+        margin: 0 auto;
+    }
+}
+
+/******************************************
+VERSION DESKTOP **************************/
+
+@media screen and (min-width: 980px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav {
+        background-color: transparent;
+    }
+
+    .nav a {
+        background-color: #ebe3db;
+    }
+
+    .nav li {
+        width: auto;
+    }
+
+    .d-nav {
+        min-width: 40%;
+    }
+
+    .d-logo {
+        display:flex;
+        align-items: center;
+
+    }
+
+    .container {
+        max-width: 1200px;
+    }
+
+    .enterprise {
+        display: flex;
+    }
+
+    f-menu {
+        display: flex;
+    }
+
+    f-menu article {
+        width: 30%;
+    }
+
+    .welcome img {
+        float: right;
+        width: 40%;
+        margin: 0 0 1rem 1rem;
+    }
+
+    
+}
